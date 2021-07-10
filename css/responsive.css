@@ -89,6 +89,7 @@
     .mean-container a.meanmenu-reveal {margin-top: -62px}
     .logo {padding: 35px 0 0px}
     .slide-content h3, .choose-content h2 {font-size: 20px; line-height: 20px}
+    .slide-content p {font-size:14px}
     .slide-content h3 {padding-top: 90px}
     .slide-content h2 {font-size: 18px; line-height: 20px}
     .choose-area::before, .header-top::before, .slider-img{display: none;}
