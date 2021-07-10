@@ -1,0 +1,158 @@
+/* Large desktop :1920px. */
+@media (min-width: 1920px) {
+    .slide-content h3 {padding-top: 105px;}
+    .slider-area{height: 950px}
+    .header-top-right::after {left: 3%;}
+    .choose-area::before {right: 430px}
+    .owl-carousel .owl-item .slider-img > img {width: 100%}
+    .header-top::before {right: 37.5%}
+}
+
+/* Laptop Device :1366px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .header-top::before {right: 38%}
+    .header-top-right::after {left: -19%}
+
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-area.two .main-menu nav > ul > li > a{font-size: 14px}
+    .slide-content h3 {font-size: 40px}
+    .slide-content h2 {font-size: 45px; line-height: 45px}
+    .main-footer .col-md-3:last-child {padding-left: 25px}
+    .single-widget h3 {font-size: 18px}
+    .single-widget.pr-60 {padding-right: 0}
+    .single-widget p {margin-bottom: 16px}
+    .header-area.two .main-menu ul li a {padding: 0 10px}
+/*    .notice-left-wrapper .notice-left .single-notice-left:nth-child(2) {display: none}*/
+    .section-title h2 {font-size: 26px;}
+    .main-menu nav > ul > li > a {line-height: 100px}
+    .logo {padding: 25px 0 23px}
+    .header-area.two .main-menu nav > ul > li > a {line-height: 122px}
+    .header-top::before {right: 32.5%}
+    .header-top::after {width: 30%}
+    .header-top-right::after {left: -5%}
+    .course-content h3 {font-size: 18px}
+    .course-details-right {padding: 45px 20px}
+    .reply-area form input, .reply-area form textarea {margin-bottom: 13px}
+    .notice-left {height: 612px;}
+    .footer-area.two .main-footer .col-md-3:last-child {padding-left: 0px}
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-menu nav > ul > li > a {font-size: 12px; line-height: 80px; padding: 0 8px}
+    .logo {padding: 20px 0 15px}
+    .slide-content h3 {font-size: 40px}
+    .slide-content h2 {font-size: 45px; line-height: 45px}
+    .choose-content h2 {font-size: 25px}
+    .course-content {padding: 22px 28px 25px}
+    .single-widget.pr-60 {padding-right: 30px}
+    .main-footer .col-md-3:last-child {padding-left: 0px}
+    .single-widget ul li {margin-bottom: 13px}
+    .header-top::before{right: 35%}
+    .header-top-right::after {left: -15%}
+    .header-area.two .main-menu nav > ul > li > a {font-size: 13px; line-height: 111px}
+    .section-title h2 {font-size: 26px;}
+    #blog > img {width: auto}
+    .notice-area, .courses-area, .event-area, .blog-area, .main-footer, .service-area, .about-area, .blog-details-area, .teacher-area, .contact-area  {padding: 80px 0}
+    .main-footer, .teacher-area {padding-bottom: 50px}
+    .course-details-right {padding: 45px 30px}
+    .header-area.two.sticky .logo {padding: 16px 0 11px; width: 80%}
+    .sticky .main-menu > nav > ul > li > a {line-height: 58px}
+    .search {top: 73px}
+    .header-top::after {width: 32%}
+    .choose-area::before {right: 40px}
+    .slider-img {display: none}
+    .slide-content {padding-left: 20px}
+    .courses-area{padding-bottom: 0}
+    .courses-area.two, .blog-sidebar.left {padding-bottom: 80px}
+    .slider-area.two .slide-content h2 {line-height: 50px}
+    .footer-area.two .main-footer .col-md-3:last-child {padding-left: 0}
+    .footer-bottom p {font-size: 12px; line-height: 65px}
+    .blog-sidebar.right, .teacher-details-area,  .blog-sidebar.right{padding-top: 50px;}
+    .progress-bar span.text-top {top: -33px; padding: 2px 8px}
+    .reply-area form input, .reply-area form textarea {margin-bottom: 13px}
+    .logo {width: 100%}
+    .main-footer .col-sm-6:first-child, .main-footer .col-sm-6:nth-child(2){margin-bottom: 30px}
+    .footer-area.two.ins > .main-footer > .container > .row > [class*="col-"]:nth-child(even) {clear: both}
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .one.mobile-menu a.meanmenu-reveal {margin-top: -55px}
+    .mean-container a.meanmenu-reveal {margin-top: -62px}
+    .logo {padding: 35px 0 0px}
+    .slide-content h3, .choose-content h2 {font-size: 24px; line-height: 32px}
+    .slide-content h3 {padding-top: 90px}
+    .slide-content h2 {font-size: 24px; line-height: 30px}
+    .choose-area::before, .header-top::before, .slider-img{display: none;}
+    .choose-content {margin-left: 30px; margin-right: 30px}
+    .section-title h2 {font-size: 19px}
+    .courses-details, .event-details-area, .teacher-area, .courses-area.two {padding-bottom: 80px}
+    .single-course, .notice-left, .single-blog, .single-widget, .single-service, .blog-details, .single-teacher, .contact-contents{margin-bottom: 30px;}
+    .col-md-4:last-child .single-course, .col-md-4:last-child .single-blog, .col-md-3:last-child .single-widget, col-md-4:last-child .single-service, .col-md-3:last-child .single-teacher{margin-bottom: 0px;}
+    .main-footer .single-widget{padding-left: 25px}
+    .main-footer .col-md-3:last-child {padding-left: 15px}
+    .footer-bottom p { line-height: 20px; padding: 15px 0}
+    .course-img img, .blog-img img, #blog > img, .single-teacher-img img{width: 100%}
+    .slider-area.two .slide-content h2 {line-height: 35px}
+    .content-wrapper {margin-right: 48px}
+    .content-wrapper.one {margin-right: 0px}
+    .sticky .mean-container a.meanmenu-reveal {margin-top: -49px; transform: all 0.6s ease 0s}
+    .notice-area.two .notice-left {padding: 35px 35px 30px}
+    .sticky .content-wrapper {padding: 0; line-height: 0}
+    .sticky .mean-container a.meanmenu-reveal {margin-top: -44px; transform: all 0.6s ease 0s}
+    .single-widget a.gap {margin-right: 15px}
+    .header-area.two .mean-container a.meanmenu-reveal {margin-top: -68px}
+    .header-top-right::after, .header-top::before {display: none;}
+    .header-top::after {width: 100%}
+    .header-top-left p, .header-top-right ul li a {text-align: center; line-height: 24px}
+    .header-top {padding: 10px 0}
+    .header-top-right.text-right{text-align: center;}
+    .slide-content {padding-left: 20px}
+    .courses-area.two {padding-bottom: 80px}
+    .notice-left, .notice-right {padding: 45px 40px 70px}
+    .single-slide {background-position: 50% center}
+    .footer-area.two .main-footer .col-md-3:last-child {padding-left: 0}
+    .footer-area.two .footer-bottom .copyright p, .footer-area.two .footer-bottom .footer-social  {text-align: center}
+    .footer-area.two .footer-bottom .footer-social ul {padding-top: 0}
+    .course-form form button {position: inherit; width: 100%}
+    .course-details-left {float: inherit; padding-right: 0px; width: 100%}
+    .banner-content h2 {font-size: 25px;}
+    .header-top-left p, .header-top-right ul li a {font-size: 12px}
+    .slider-area {height: 75vh}
+    .sticky .logo {padding: 15px 0 6px; width: 90%}
+    .header-area.two.sticky .mean-container a.meanmenu-reveal {margin-top: -41px}
+    .header-area.two.sticky .search {top: 41px}
+    .notice-area.three{padding-top: 0}
+    .logo{ width: 100%;}
+    .header-area.two.sticky .logo {width: 90%}
+    .footer-area.three .footer-bottom.two p {padding-top: 15px; line-height: 20px}
+    .footer-area.three .footer-bottom.two .footer-social ul{padding-top: 0px}
+
+}
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .slide-content h3 {font-size: 30px}
+    .slide-content h2 {font-size: 35px; line-height: 35px}
+    .event-content-right a{display: block}
+    .service-area h3, .course-content h3 {font-size: 18px}
+    .header-area.two .logo {padding: 25px 0 21px}
+    .header-area.two .mean-container a.meanmenu-reveal {margin-top: -63px}
+    .one.mobile-menu a.meanmenu-reveal {margin-top: -65px}
+    .banner-content h2 {font-size: 35px;}
+    .one.mobile-menu a.meanmenu-reveal {margin-top: -64px}
+    .sticky .one.mobile-menu a.meanmenu-reveal {margin-top: -50px}
+    .header-area.two.sticky .mean-container a.meanmenu-reveal {margin-top: -48px}
+    .header-area.two.sticky .search {top: 48px}
+    .sticky .search-btn {top: 18px}
+    .slide-content h3 {padding-top: 40px}
+    .sticky .logo{width: 80%}
+
+}
