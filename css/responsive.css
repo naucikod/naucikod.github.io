@@ -88,9 +88,9 @@
     .one.mobile-menu a.meanmenu-reveal {margin-top: -55px}
     .mean-container a.meanmenu-reveal {margin-top: -62px}
     .logo {padding: 35px 0 0px}
-    .slide-content h3, .choose-content h2 {font-size: 24px; line-height: 32px}
+    .slide-content h3, .choose-content h2 {font-size: 16px; line-height: 26px}
     .slide-content h3 {padding-top: 90px}
-    .slide-content h2 {font-size: 24px; line-height: 30px}
+    .slide-content h2 {font-size: 14px; line-height: 30px}
     .choose-area::before, .header-top::before, .slider-img{display: none;}
     .choose-content {margin-left: 30px; margin-right: 30px}
     .section-title h2 {font-size: 19px}
