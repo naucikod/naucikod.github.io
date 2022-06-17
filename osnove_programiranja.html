@@ -12,7 +12,7 @@
         <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/meanmenu.css">
         <link rel="stylesheet" href="css/magnific-popup.css">
@@ -28,50 +28,40 @@
     <body>
         <!-- Header Area Start -->
         <header class="top">
-		    <div class="header-top">
-		        <div class="container">
-		            <div class="row">
-		                <div class="col-md-8 col-sm-8 col-xs-12">
-		                    <div class="header-top-left">
-		                        <p>IMATE PITANJA ?  +387 66 060 807</p>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-		    </div>
-			<div class="header-area two header-sticky">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-3 col-sm-3 col-xs-6">
-							<div class="logo">
-								<a href="index.html"><img src="img/logo/logo2.png" alt="naucikod" /></a>
-							</div>
-						</div>
-						<div class="col-md-9 col-sm-9 col-xs-6">
-                            <div class="content-wrapper text-right">
-                                <!-- Main Menu Start -->
-                                <div class="main-menu one text-right">
-                                    <nav>
-                                        <ul>
-                                            <li><a href="index.html">Početna</a>
-                                            </li>
-                                            <li><a href="course.html">Kursevi</a>
-                                            </li>
-                                            <li><a href="contact.html">Kontakt</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                                <div class="mobile-menu hidden-lg hidden-md one"></div>
-                                <!-- Main Menu End -->
+            <div class="header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8 col-xs-12">
+                            <div class="header-top-left">
+                                <p>IMATE PITANJA ?  +387 66 060 807</p>
                             </div>
-						</div>
-                        <div class="col-xs-12">
-                            <div class="mobile-menu hidden-lg hidden-md hidden-sm"></div>
                         </div>
-					</div>
-				</div>
-			</div>
-		</header>
+                    </div>
+                </div>
+            </div>
+            <div class="header-area two header-sticky">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="logo">
+                                <a href="index.html"><img src="img/logo/logo2.png" alt="naucikod" /></a>
+                            </div>
+                        </div>
+                        <div class="col my-auto">
+                            <nav class="navbar navbar-expand bg-transparent">
+                                <div class="container-fluid">
+                                    <div class="navbar-nav nav-pills ms-auto">
+                                        <a class="nav-link" aria-current="page" href="index.html">Početna</a>
+                                        <a class="nav-link active" href="course.html">Kursevi</a>
+                                        <a class="nav-link" href="contact.html">Kontakt</a>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
 		<!-- Header Area End -->
         <!-- Start -->
         <div class="courses-details-area">
@@ -84,7 +74,7 @@
                             </div>
                             <div class="course-details-content">
                                 <h2>Osnove programiranja</h2>
-                                <p> Osnove programiranja su jako opširna oblast koja zahtjeva jako puno vremena i volje za znanjem od strane djece.
+                                <p> Osnove programiranja su jako opširna oblast koja zahtjeva puno vremena i volje za znanjem od strane djece.
                                      Ovaj kurs je osmišljen da kroz praksu upozna djecu sa svim neophodnim konceptima kako bi se stekli uslovi za dalji razvoj iz ove oblasti.
                                       Djeca će se susresti sa mnogo, do sada njima nepoznatih pojmova koje ćemo morati detaljno preći na njima razumljiv i što zabavniji način.
                                        Poznavanje engleskog jezika je poželjno ali ne i neophodno.</p>
@@ -94,6 +84,7 @@
                                     <div class="single-course-left">
                                         <h3>O kursu</h3>
                                         <p>Namjenjen je apsolutnim početnicima iz oblasti programiranja i komjuterske nauke. Djeca će se upoznati sa osnovama programskog jezika Python i kroz praktičan rad sa osnovama kompjuterske nauke.</p>
+                                        <p>Tokom kursa djeca će imati priliku da se upoznaju sa: izradama prototipa, elektronikom, povezivanjem elektronike, upotrebom mikrokontrolera i SBC, kao i njihovim programiranjem koristeći MicroPython.</p>
                                     </div>
                                     <div class="single-course-left">
                                         <h3>Potrebno predznanje</h3>
@@ -102,22 +93,23 @@
                                     <div class="single-course-left">
                                         <h3>Program kursa</h3>
                                         <p class="margin">Kurs obuhvata praktičan rad u programskom jeziku Python. Tokom kursa, a u skladu sa naučenim imaćemo projekte izrade aplikacija.</p>
-                                        <p> Kurs se sastoji od praktičnih vježbi, kao i praktične provjeru znanja nakon svake oblasti, zajedničkih mjesečnih radionica kodiranja i više...</p>
+                                        <p> Kurs se sastoji od praktičnih vježbi, kao i praktične provjeru znanja nakon svake oblasti, zajedničkih mjesečnih radionica kodiranja, događaja i više...</p>
+                                        <p> "Programiranje fizičkih uređaja", elektronika, mikrokontroleri i rand na SBC daće djeci novi pogled na upotrebu digitalnih uređaja danas, kao i razvoj inovativnosti i kreativnosti</p>
                                     </div>
                                 </div>
                                 </div>
                                 <div class="course-details-t col-md-6">
                                     <h3>Opšte o kursu</h3>
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Početak <span>Februar, 2022</span></li>
-                                        <li class="list-group-item">Trajanje <span>10 Mjeseci</span></li>
+                                        <li class="list-group-item">Početak <span>Septembar, 2022</span></li>
+                                        <li class="list-group-item">Trajanje <span>12 - 14 Mjeseci (zavisi od uzrasta)</span></li>
                                         <li class="list-group-item">Trajanje časa <span>1h 15min</span></li>
-					<li class="list-group-item">Trajanje radionice <span>1 - 2 sata</span></li>
-                                        <li class="list-group-item">Ukupno predviđeno časova <span>50 + 10 radionica</span></li>
+					<li class="list-group-item">Trajanje radionice <span>2 sata</span></li>
+                                        <li class="list-group-item">Ukupno predviđeno časova <span> 55 + 14 radionica</span></li>
                                         <li class="list-group-item">Uzrast <span>12-18</span></li>
-                                        <li class="list-group-item">maksimalno učenika <span>12</span></li>
+                                        <li class="list-group-item">Maksimalno učenika <span>12</span></li>
                                     </ul>
-                                    <h3 class="red">cijena 45 KM mjesečno</h3>
+                                    <h3 class="red">Cijena 50 KM mjesečno</h3>
                                 <!-- </div> -->
                                 </div>
                                 </div>
@@ -347,7 +339,7 @@
         </footer>
         <!-- Footer End -->
         <script src="js/vendor/jquery-1.12.0.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
         <script src="js/jquery.meanmenu.js"></script>
         <script src="js/jquery.magnific-popup.js"></script>
         <script src="js/owl.carousel.min.js"></script>
