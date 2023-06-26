@@ -3,7 +3,6 @@ jQuery(document).ready(function($){
 	"use strict";	
 	
 
-	$("html").niceScroll({zindex:99999,cursorborder:"1px solid #424242"});
 	//STICKY MENU...
 	$("#menu-container").sticky({ topSpacing: 0 });
 	//Mobile Menu

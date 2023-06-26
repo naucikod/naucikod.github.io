@@ -1,27 +1,4 @@
 @charset "utf-8";
-/* CSS Document */
-
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-1.0 - General Styles
-2.0 - Font Family
-3.0 - Header Styles
-	3.1 - Menu styles
-4.0 - Main Styles
-	4.1 - Breadcrumb Styles
-	4.2 - Add slider Styles
-5.0 - coursee Styles
-6.0 - Team Styles
-9.0 - Contact Page Styles
-10.0 - Sidebar Styles
-11.0 - Footer Styles
---------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------
-1.0 - General Styles
---------------------------------------------------------------*/
 
 *{-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
 
@@ -84,35 +61,12 @@ tbody tr:nth-child(2n+1) td{background:#ffffff;}
 
 iframe{max-width:100%; border:none;}
 
-#map{width:1170px; height:500px; max-width:100%;}
-
 .aligncenter{text-align:center; width:100%; display:inline-block; margin:0 auto;}
 
 blockquote q{font-style:italic;}
 
-input[type=text], input[type=email]{width:100%; padding:16px 18px; font-size:16px; color:#a9a7a7; background:#FFFFFF; border:1px solid #eaeaea; outline:none; border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px;}
-
-input[type=text]:focus, input[type=email]:focus, textarea:focus{box-shadow:0 0 10px #ddd; -webkit-box-shadow:0 0 10px #ddd; -moz-box-shadow:0 0 10px #ddd;}
-
 .fullwidth-background.turquoise-plain-bg input[type=text]:focus, .fullwidth-background.turquoise-plain-bg input[type=email]:focus, .fullwidth-background.turquoise-plain-bg textarea:focus{box-shadow:0 0 10px #015057;}
 
-input[type="button"]{border:0; outline:none; cursor:pointer;}
-
-input[type=submit]{background:#015057; color:#FFFFFF; font-family:inherit; padding:18px 24px; font-size:14px; border:none; outline:none; border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; cursor:pointer;}
-
-input[type=submit]:hover{background:#333334; color:#FFFFFF;}
-
-input[type=number]{background:#FFFFFF; border:1px solid #dddddd; padding:12px 5px 12px 10px; display:block; margin:10px 0 10px; width:100%; outline:none; -moz-appearance:textfield;}
-
-input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{-webkit-appearance:none; margin:0;}
-
-button[type=submit]{cursor:pointer; border:0; outline:none;}
-
-textarea{border:none; outline:none; font-size:16px; color:#a9a7a7; padding:16px 18px; width:100%; border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px;}
-
-input.error, textarea.error{padding:15px 18px; border:1px solid #FF0000;}
-
-#primary form p{margin-bottom:20px;}
 
 /*--------------------------------------------------------------
 2.0 - Font Family
@@ -120,7 +74,7 @@ input.error, textarea.error{padding:15px 18px; border:1px solid #FF0000;}
 
 .dt-sc-toggle-frame h5 a, .course h5.dt-sc-toggle-accordion:before, .course h5.dt-sc-toggle-accordion.active:before, h5.dt-sc-toggle a, h5.dt-sc-toggle-accordion a, .product-details h5 a, .front-coursee .image-overlay h5 a{font-family:'Lato', sans-serif;}
 
-h1, h2, h3, h4, h5, h6, .dt-sc-ico-content h4 a, .dt-sc-ico-content.type2 h4 a, .entry-title h3, .dt-sc-team h4, h3.widgettitle, .dt-sc-music-audio h5 a, input[type=text], input[type=email], textarea, .breadcrumb-section h1, .activity h4, .megamenu-child-container > ul.sub-menu > li > a{font-family:'Roboto Black', cursive; font-weight:normal;}
+h1, h2, h3, h4, h5, h6, .dt-sc-ico-content h4 a, .dt-sc-ico-content.type2 h4 a, .entry-title h3, .dt-sc-team h4, h3.widgettitle, .dt-sc-music-audio h5 a, input[type=text], input[type=email], textarea, .breadcrumb-section h1, .activity h4, .megamenu-child-container > ul.sub-menu > li > a{font-family:'Roboto Black', "Lato Black","sans-serif"; font-weight:normal;}
 
 footer .widget.widget_text ul li:before, .coursee-detail p:before, h5.dt-sc-toggle-accordion:before, h5.dt-sc-toggle:before, .dt-sc-toggle-frame h5 a:before, .dt-sc-toggle-frame h5 a:after, .dt-sc-toggle-frame-set .dt-sc-toggle-frame h5.dt-sc-toggle-accordion:after, .dt-sc-toggle-frame-set .dt-sc-toggle-frame h5.dt-sc-toggle:after, ul.dt-sc-fancy-list li:before, header ul.dt-sc-social-icons li a:before{font-family:FontAwesome; font-style:normal; font-weight:normal;}
 
