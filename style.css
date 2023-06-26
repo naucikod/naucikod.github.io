@@ -74,7 +74,7 @@ blockquote q{font-style:italic;}
 
 .dt-sc-toggle-frame h5 a, .course h5.dt-sc-toggle-accordion:before, .course h5.dt-sc-toggle-accordion.active:before, h5.dt-sc-toggle a, h5.dt-sc-toggle-accordion a, .product-details h5 a, .front-coursee .image-overlay h5 a{font-family:'Lato', sans-serif;}
 
-h1, h2, h3, h4, h5, h6, .dt-sc-ico-content h4 a, .dt-sc-ico-content.type2 h4 a, .entry-title h3, .dt-sc-team h4, h3.widgettitle, .dt-sc-music-audio h5 a, input[type=text], input[type=email], textarea, .breadcrumb-section h1, .activity h4, .megamenu-child-container > ul.sub-menu > li > a{font-family:'Roboto Black', "Lato Black","sans-serif"; font-weight:normal;}
+h1, h2, h3, h4, h5, h6, .dt-sc-ico-content h4 a, .dt-sc-ico-content.type2 h4 a, .entry-title h3, .dt-sc-team h4, h3.widgettitle, .dt-sc-music-audio h5 a, input[type=text], input[type=email], textarea, .breadcrumb-section h1, .activity h4, .megamenu-child-container > ul.sub-menu > li > a{font-family:'Roboto Black', "Lato Black","sans-serif"; font-weight:900;}
 
 footer .widget.widget_text ul li:before, .coursee-detail p:before, h5.dt-sc-toggle-accordion:before, h5.dt-sc-toggle:before, .dt-sc-toggle-frame h5 a:before, .dt-sc-toggle-frame h5 a:after, .dt-sc-toggle-frame-set .dt-sc-toggle-frame h5.dt-sc-toggle-accordion:after, .dt-sc-toggle-frame-set .dt-sc-toggle-frame h5.dt-sc-toggle:after, ul.dt-sc-fancy-list li:before, header ul.dt-sc-social-icons li a:before{font-family:FontAwesome; font-style:normal; font-weight:normal;}
 
@@ -306,7 +306,7 @@ a.meanmenu-reveal{display:none;}
 
 /* when under viewport size, .mean-container is added to body */
 
-.mean-container a.meanmenu-reveal{width:22px; height:22px; padding:13px 13px 11px 13px; position:absolute; top:5px; right:5px !important; cursor:pointer; color:#FFFFFF; text-decoration:none; font-size:16px; text-indent:-9999em; line-height:22px; font-size:1px; display:block; font-family:Arial, Helvetica, sans-serif; font-weight:700; z-index:9999;}
+.mean-container a.meanmenu-reveal{width:22px; height:22px; padding:13px 13px 11px 13px; position:absolute; top:5px; right:5px !important; cursor:pointer; color:#FFFFFF; text-decoration:none; font-size:16px; text-indent:-9999em; line-height:22px; font-size:1px; display:block; font-family:"Roboto", "Open Sans", sans-serif; font-weight:700; z-index:9999;}
 
 .mean-container a.meanmenu-reveal span{display:block; background:#FFFFFF; height:3px; margin-top:3px;}
 
