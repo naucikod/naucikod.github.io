@@ -403,6 +403,7 @@ header #menu-container ul.dt-sc-social-icons{float:right; height:60px;}
 .add-slider-wrapper iframe{overflow:hidden;}
 .add-slider-wrapper video{overflow:hidden;}
 .add-slider-wrapper video{width:463px; height:369px;}
+.add-slider-wrapper iframe{width:463px; height:369px;}
 
 .fullwidth_banner{background:url(images/cesta-pitanja-hero.png) center center no-repeat; width:100%; background-size:cover; padding:97px 0;}
 
